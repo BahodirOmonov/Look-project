@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "count": 2,
+    "count": 5,
     "userId": 2,
     "foodId": 3
   },
@@ -10,5 +10,11 @@
     "count": 1,
     "userId": 1,
     "foodId": 1
+  },
+  {
+    "id": 3,
+    "userId": 2,
+    "foodId": 1,
+    "count": 1
   }
 ]
