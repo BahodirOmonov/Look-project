@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Fanta",
+    "img": "/images/fanta.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cola",
+    "img": "/images/cola.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Burger",
+    "img": "/images/burger.jpg"
+  }
+]

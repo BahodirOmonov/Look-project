@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "username": "Abdulloh",
+    "phone_number": "+998995643218"
+  },
+  {
+    "id": 2,
+    "username": "Hadicha",
+    "phone_number": "+998985643218"
+  },
+  {
+    "id": 3,
+    "username": "Oysha",
+    "phone_number": "+998915643218"
+  },
+  {
+    "id": 4,
+    "username": "Hasan",
+    "phone_number": "+998713456238"
+  },
+  {
+    "id": 5,
+    "username": "Oybek",
+    "phone_number": "+998993456238"
+  }
+]
