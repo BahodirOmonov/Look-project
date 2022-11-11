@@ -7,6 +7,12 @@ const orders = JSON.parse(
     .trim() || "[]"
 );
 
+const foods = JSON.parse(
+  fs
+    .readFileSync(path.join(process.cwd(), "database", "food.json"), "UTF-8")
+    .trim() || "[]"
+);
+
 const GET = (req, res) => {
   res.setHeader("Content-Type", "application/json");
   const { userId } = req.params;
@@ -18,8 +24,15 @@ const GET = (req, res) => {
     });
   }
 
-  const findOrders = orders.filter((order) => order.userId == userId);
-  res.status(200).json(findOrders);
+  const findOrders = orders.map((order) => {
+    if (order.userId == userId) {
+      const findFood = foods.find((food) => food.id == order.foodId);
+      order.food = findFood;
+      return order;
+    }
+    return false;
+  });
+  res.status(200).json(findOrders.filter((order) => order));
 };
 
 const POST = (req, res) => {

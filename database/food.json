@@ -1,17 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Fanta",
-    "img": "/images/fanta.jpg"
+    "name": "Cola",
+    "img": "/img/cola.jpeg"
   },
   {
     "id": 2,
-    "name": "Cola",
-    "img": "/images/cola.jpg"
+    "name": "Spinner",
+    "img": "/img/spinner.jpeg"
   },
   {
     "id": 3,
-    "name": "Burger",
-    "img": "/images/burger.jpg"
+    "name": "Chicken Wings",
+    "img": "/img/chicken_wings.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Burger Cheese",
+    "img": "/img/burger_cheese.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Togoro",
+    "img": "/img/chicken_togora.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Combo",
+    "img": "/img/combo.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Fanta",
+    "img": "/img/fanta.jpeg"
   }
 ]

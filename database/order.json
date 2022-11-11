@@ -3,18 +3,72 @@
     "id": 1,
     "count": 5,
     "userId": 2,
-    "foodId": 3
+    "foodId": 3,
+    "food": {
+      "id": 3,
+      "name": "Chicken Wings",
+      "img": "/img/chicken_wings.jpeg"
+    }
   },
   {
     "id": 2,
     "count": 1,
     "userId": 1,
-    "foodId": 1
+    "foodId": 1,
+    "food": {
+      "id": 1,
+      "name": "Cola",
+      "img": "/img/cola.jpeg"
+    }
   },
   {
     "id": 3,
     "userId": 2,
     "foodId": 1,
-    "count": 1
+    "count": 1,
+    "food": {
+      "id": 1,
+      "name": "Cola",
+      "img": "/img/cola.jpeg"
+    }
+  },
+  {
+    "id": 4,
+    "userId": 4,
+    "foodId": 7,
+    "count": 2,
+    "food": {
+      "id": 7,
+      "name": "Fanta",
+      "img": "/img/fanta.jpeg"
+    }
+  },
+  {
+    "id": 5,
+    "userId": 5,
+    "foodId": 4,
+    "count": 1,
+    "food": {
+      "id": 4,
+      "name": "Burger Cheese",
+      "img": "/img/burger_cheese.jpeg"
+    }
+  },
+  {
+    "id": 6,
+    "userId": 4,
+    "foodId": 3,
+    "count": 1,
+    "food": {
+      "id": 3,
+      "name": "Chicken Wings",
+      "img": "/img/chicken_wings.jpeg"
+    }
+  },
+  {
+    "id": 7,
+    "userId": 5,
+    "foodId": 7,
+    "count": 2
   }
 ]

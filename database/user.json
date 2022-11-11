@@ -23,5 +23,20 @@
     "id": 5,
     "username": "Oybek",
     "phone_number": "+998993456238"
+  },
+  {
+    "id": 6,
+    "username": "Otabek",
+    "phone_number": "998953410101"
+  },
+  {
+    "id": 7,
+    "username": "Samandar",
+    "phone_number": "998918764545"
+  },
+  {
+    "id": 8,
+    "username": "Ahadullo",
+    "phone_number": "998990003969"
   }
 ]
